@@ -36,6 +36,7 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'i18n-debug', require: false
   gem 'meta_request'
+  gem 'byebug'
 
   # Code styling
   gem 'rubocop', require: false
@@ -50,6 +51,11 @@ group :development, :test do
   gem 'guard-rspec', require: false
   gem 'terminal-notifier'
   gem 'terminal-notifier-guard', '~> 1.6.1'
+
+  # Testing
+  gem 'rspec-rails', '~> 3.4'
+  gem 'capybara', '~> 2.5'
+  gem 'factory_girl_rails', '~> 4.5.0'
 end
 
 group :development do
@@ -57,3 +63,8 @@ group :development do
   gem 'spring'
 end
 
+group :test do
+  gem 'shoulda-matchers', '~> 3.0', require: false
+  gem 'database_cleaner', '~> 1.5'
+  gem 'faker', '~> 1.6.1'
+end
