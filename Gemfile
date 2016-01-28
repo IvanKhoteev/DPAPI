@@ -13,6 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
@@ -21,6 +22,11 @@ gem 'active_model_serializers', '~> 0.8.2'
 
 # Environment settings management
 gem 'figaro'
+
+# Admin area
+gem 'devise'
+gem 'devise-bootstrap-views'
+gem 'russian'
 
 # Scheduling and background jobs
 gem 'sidekiq'
