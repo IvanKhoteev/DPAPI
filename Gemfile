@@ -22,6 +22,9 @@ gem 'active_model_serializers', '~> 0.8.2'
 # Environment settings management
 gem 'figaro'
 
+# Admin area
+gem 'devise'
+
 # Scheduling and background jobs
 gem 'sidekiq'
 gem 'sidekiq-failures'
