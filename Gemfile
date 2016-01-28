@@ -24,6 +24,7 @@ gem 'figaro'
 
 # Admin area
 gem 'devise'
+gem 'russian'
 
 # Scheduling and background jobs
 gem 'sidekiq'
